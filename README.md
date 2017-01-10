@@ -29,7 +29,7 @@ A millimeterwave application based on onos
 ###Show only hosts
     onos>showcomponets -h  
     
-##This application can also add addtional annotations on devices, links and ports.
+##This application can also add addtional annotations on devices, links and ports by commands.
 
 
 ###Add additional annotations on devices
