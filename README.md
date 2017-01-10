@@ -2,7 +2,7 @@
 A millimeterwave application based on onos
 
 <img src="https://github.com/DINGDAMU/Millimeterwave_onos_app/blob/master/architecture%20overview.png" width="50%" height="50%" />
-# prerequisites
+# Prerequisites
 - Java 8 JDK (Oracle Java recommended; OpenJDK is not as thoroughly tested)
 - Apache Maven 3.3.9
 - git
@@ -19,7 +19,7 @@ A millimeterwave application based on onos
     onos-app localhost reinstall! target/millimeterwave_app-1.0-SNAPSHOT.oar
  
 #Usage 
-##The application can acquire the mininet's topology from different subsystems via northbound APIs, such as HostService, LinkService and DeviceService.  
+##This application can acquire the mininet's topology from different subsystems via northbound APIs, such as HostService, LinkService and DeviceService.  
 ###Show all components by default
     onos>showcomponets  
 ###Show only devices
