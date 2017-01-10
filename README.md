@@ -18,19 +18,8 @@ A millimeterwave application based on onos
     mvn clean install 
     onos-app localhost reinstall! target/millimeterwave_app-1.0-SNAPSHOT.oar
  
-#Usage 1
-##ShowComponetsCommand:
-###Show all components by default
-    onos>showcomponets  
-###Show only devices
-    onos>showcomponets -d  
-###Show only links
-    onos>showcomponets -l  
-###Show only hosts
-    onos>showcomponets -h  
-    
-##Description:
-The application can acquire the mininet's topology from different subsystems via northbound APIs, such as HostService, LinkService and DeviceService.
+#Usage 
+Please look at [wiki](https://github.com/DINGDAMU/Millimeterwave_onos_app/wiki)  
 
 
 
