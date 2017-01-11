@@ -33,7 +33,7 @@ A millimeterwave application based on onos
 
 
 ###Add additional annotations on devices
-    onos>annotate-device-ex <deviceID> <key> <value>  
+    onos>annotate-devices <deviceID> <key> <value>  
    
 ###Add additional annotations on links
     onos>annotate-links <source-connectPoint> <destination-connectPoint> <key> <value>
