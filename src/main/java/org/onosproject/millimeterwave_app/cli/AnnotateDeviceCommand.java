@@ -29,14 +29,13 @@ import org.onosproject.net.device.DeviceProvider;
 import org.onosproject.net.device.DeviceProviderRegistry;
 import org.onosproject.net.device.DeviceProviderService;
 import org.onosproject.net.device.DeviceService;
-import org.onosproject.net.driver.DriverService;
 import org.onosproject.net.provider.AbstractProvider;
 import org.onosproject.net.provider.ProviderId;
 
 /**
  * Annotates network device model.
  */
-@Command(scope = "onos", name = "annotate-device-ex",
+@Command(scope = "onos", name = "annotate-devices",
         description = "Annotates network model entities")
 public class AnnotateDeviceCommand extends AbstractShellCommand {
 

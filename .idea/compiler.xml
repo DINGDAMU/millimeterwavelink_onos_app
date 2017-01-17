@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="millimeterwave_app" />
+        <module name="millimeterwaveLink_app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="millimeterwave_app" target="1.8" />
+      <module name="millimeterwaveLink_app" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

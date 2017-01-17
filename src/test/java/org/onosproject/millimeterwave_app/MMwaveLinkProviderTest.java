@@ -18,29 +18,45 @@ package org.onosproject.millimeterwave_app;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.onosproject.core.ApplicationId;
+import org.onosproject.core.CoreService;
+import org.onosproject.core.DefaultApplicationId;
+import org.onosproject.net.config.NetworkConfigRegistry;
+
+import static org.onosproject.app.DefaultApplicationDescriptionTest.APP_NAME;
 
 /**
  * Set of tests of the ONOS application component.
  */
-public class AppComponentTest {
+public class MMwaveLinkProviderTest {
 
-    private AppComponent component;
+    private MMwaveLinkProvider component;
+
+
 
     @Before
     public void setUp() {
-        component = new AppComponent();
-        component.activate();
+
+       // component = new MMwaveLinkProvider();
+
+
+       // component.activate();
 
     }
 
+
+
     @After
     public void tearDown() {
-        component.deactivate();
+
+        //component.deactivate();
     }
 
     @Test
     public void basics() {
 
     }
+
+
 
 }
