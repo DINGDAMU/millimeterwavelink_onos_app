@@ -66,7 +66,7 @@ public class MMwaveLinkProvider extends AbstractProvider
     private final Logger log = LoggerFactory.getLogger(getClass());
 
      //<onos.app.name>
-    protected static final String APP_NAME = "org.onosproject.MillimeterwaveLink_app";
+    protected static final String APP_NAME = "org.onosproject.millimeterwavelink";
     //private static final String SCHEME_NAME = "openflow";
     private static final String LENGTH = "length";
     private final ExecutorService executor =
@@ -92,8 +92,7 @@ public class MMwaveLinkProvider extends AbstractProvider
     @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
     protected LinkProviderRegistry providerRegistry;
 
-    @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
-    protected NetcfgController controller;
+
 
 
 
@@ -123,7 +122,6 @@ public class MMwaveLinkProvider extends AbstractProvider
     @Activate
     protected void activate() {
         appId= coreService.registerApplication(APP_NAME);
-        controller.addListener(linkListener);
         linkProviderService = providerRegistry.register(this);
         cfgService.registerConfigFactory(factory);
         cfgService.addListener(cfgListener);
@@ -134,7 +132,6 @@ public class MMwaveLinkProvider extends AbstractProvider
 
     @Deactivate
     protected void deactivate() {
-        controller.removeListener(linkListener);
         cfgService.removeListener(cfgListener);
         cfgService.unregisterConfigFactory(factory);
         linkService.removeListener(linkListener);
@@ -178,7 +175,6 @@ public class MMwaveLinkProvider extends AbstractProvider
                     ConnectPoint src = ConnectPoint.deviceConnectPoint(srcArg);
                     ConnectPoint dst = ConnectPoint.deviceConnectPoint(dstArg);
                     //configuration object
-
                     SparseAnnotations annotations = DefaultAnnotations.builder()
                             .set(LENGTH, String.valueOf(length))
                             .build();
