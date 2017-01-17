@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b24351e-c191-4470-a773-d3d64a23a2b7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/OSGI-INF/org.onosproject.millimeterwave_app.AppComponent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/AppComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/millimeterwave_app-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/millimeterwave_app-1.0-SNAPSHOT.oar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oar/m2/org/onosproject/millimeterwave_app/millimeterwave_app/1.0-SNAPSHOT/millimeterwave_app-1.0-SNAPSHOT-features.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oar/m2/org/onosproject/millimeterwave_app/millimeterwave_app/1.0-SNAPSHOT/millimeterwave_app-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.onosproject.millimeterwave_app.AppComponentTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.onosproject.millimeterwave_app.AppComponentTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/org/onosproject/millimeterwave_app/AppComponentTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/millimeterwave_app.iml" afterPath="$PROJECT_DIR$/millimeterwaveLink_app.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/AppComponent.java" afterPath="$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/MMwaveLinkProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/onosproject/millimeterwave_app/AppComponentTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/onosproject/millimeterwave_app/MMwaveLinkProviderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotateDeviceCommand$AnnotationProvider.class" afterPath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotateDeviceCommand$AnnotationProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotateDeviceCommand.class" afterPath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotateDeviceCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotateDeviceCommand.java" afterPath="$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotateDeviceCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/oar/app.xml" afterPath="$PROJECT_DIR$/target/oar/app.xml" />
-    </list>
+    <list default="true" id="0b24351e-c191-4470-a773-d3d64a23a2b7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
