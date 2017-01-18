@@ -10,9 +10,11 @@ import org.onosproject.net.DeviceId;
 import org.onosproject.net.MastershipRole;
 import org.onosproject.net.Port;
 import org.onosproject.net.PortNumber;
+import org.onosproject.net.behaviour.PortDiscovery;
 import org.onosproject.net.device.DefaultDeviceDescription;
 import org.onosproject.net.device.DefaultPortDescription;
 import org.onosproject.net.device.DeviceDescription;
+import org.onosproject.net.device.DeviceDescriptionDiscovery;
 import org.onosproject.net.device.DeviceProvider;
 import org.onosproject.net.device.DeviceProviderRegistry;
 import org.onosproject.net.device.DeviceProviderService;
@@ -28,7 +30,7 @@ import java.util.List;
         description = "Annotates ports")
 public class AnnotatePortCommand extends AbstractShellCommand {
 
-    static final ProviderId PID2 = new ProviderId("cli", "org.onosproject.cli", true);
+    static final ProviderId PID = new ProviderId("cli", "org.onosproject.cli", true);
 
     @Argument(index = 0, name = "uri", description = "Device ID",
             required = true, multiValued = false)
@@ -63,9 +65,20 @@ public class AnnotatePortCommand extends AbstractShellCommand {
         PortNumber portNumber=PortNumber.portNumber(portnumber);
         try {
             DeviceProviderService providerService = registry.register(provider);
-            //I must add the deviceDescription first so that the portStatusChanged method can work
-            // Otherwise it will warn you  no device description for deviceID, I don't know why
-            providerService.deviceConnected(device.id(),deviceDescription(device,null,null));
+
+            //discover ports
+            if (device.is(PortDiscovery.class)) {
+                PortDiscovery portConfig = device.as(PortDiscovery.class);
+                providerService.updatePorts(device.id(),
+                                            portConfig.getPorts());
+            } else if (device.is(DeviceDescriptionDiscovery.class)) {
+                DeviceDescriptionDiscovery deviceDescriptionDiscovery =
+                        device.as(DeviceDescriptionDiscovery.class);
+                providerService.updatePorts(device.id(),
+                                            deviceDescriptionDiscovery.discoverPortDetails());
+            } else {
+                log.warn("No portGetter behaviour for device {}", device.id());
+            }
             providerService.portStatusChanged(device.id(),description(portNumber,isEnabled,key,value));
         } finally {
             registry.unregister(provider);
@@ -110,7 +123,7 @@ public class AnnotatePortCommand extends AbstractShellCommand {
     private static final class AnnotationProvider
             extends AbstractProvider implements DeviceProvider {
         private AnnotationProvider() {
-            super(PID2);
+            super(PID);
         }
 
         @Override
