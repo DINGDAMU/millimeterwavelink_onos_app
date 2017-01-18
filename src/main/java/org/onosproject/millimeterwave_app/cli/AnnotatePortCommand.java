@@ -10,7 +10,9 @@ import org.onosproject.net.DeviceId;
 import org.onosproject.net.MastershipRole;
 import org.onosproject.net.Port;
 import org.onosproject.net.PortNumber;
+import org.onosproject.net.device.DefaultDeviceDescription;
 import org.onosproject.net.device.DefaultPortDescription;
+import org.onosproject.net.device.DeviceDescription;
 import org.onosproject.net.device.DeviceProvider;
 import org.onosproject.net.device.DeviceProviderRegistry;
 import org.onosproject.net.device.DeviceProviderService;
@@ -26,7 +28,7 @@ import java.util.List;
         description = "Annotates ports")
 public class AnnotatePortCommand extends AbstractShellCommand {
 
-    static final ProviderId PID = new ProviderId("cli", "org.onosproject.cli", true);
+    static final ProviderId PID2 = new ProviderId("cli", "org.onosproject.cli", true);
 
     @Argument(index = 0, name = "uri", description = "Device ID",
             required = true, multiValued = false)
@@ -56,31 +58,47 @@ public class AnnotatePortCommand extends AbstractShellCommand {
         Device device = service.getDevice(DeviceId.deviceId(uri));
 
         DeviceProviderRegistry registry = get(DeviceProviderRegistry.class);
-        DeviceProvider provider = new AnnotatePortCommand.AnnotationProvider();
+        DeviceProvider provider = new AnnotationProvider();
 
         PortNumber portNumber=PortNumber.portNumber(portnumber);
         try {
             DeviceProviderService providerService = registry.register(provider);
-            providerService.updatePorts(device.id(), description(portNumber, isEnabled,key, value));
-
+            //I must add the deviceDescription first so that the portStatusChanged method can work
+            // Otherwise it will warn you  no device description for deviceID, I don't know why
+            providerService.deviceConnected(device.id(),deviceDescription(device,null,null));
+            providerService.portStatusChanged(device.id(),description(portNumber,isEnabled,key,value));
         } finally {
             registry.unregister(provider);
         }
     }
 
-    private List<PortDescription> description(PortNumber portNumber,boolean isEnabled, String key, String value) {
+    private PortDescription description(PortNumber portNumber,boolean isEnabled, String key, String value) {
         DefaultAnnotations.Builder builder = DefaultAnnotations.builder();
         if (value != null) {
             builder.set(key, value);
         } else {
             builder.remove(key);
         }
-        List<PortDescription> desc= new ArrayList<>();
 
         // don' forget new method!
-        desc.add(new DefaultPortDescription(portNumber,isEnabled, builder.build()));
-        return  desc;
+        return  new DefaultPortDescription(portNumber,isEnabled,builder.build());
 
+
+    }
+
+    private DeviceDescription deviceDescription(Device device, String key, String value) {
+        DefaultAnnotations.Builder builder = DefaultAnnotations.builder();
+        if (value != null) {
+            builder.set(key, value);
+        } else {
+            builder.remove(key);
+        }
+
+        // don' forget new method!
+        return new DefaultDeviceDescription(device.id().uri(), device.type(),
+                                            device.manufacturer(), device.hwVersion(),
+                                            device.swVersion(), device.serialNumber(),
+                                            device.chassisId(), false, builder.build());
 
     }
 
@@ -92,7 +110,7 @@ public class AnnotatePortCommand extends AbstractShellCommand {
     private static final class AnnotationProvider
             extends AbstractProvider implements DeviceProvider {
         private AnnotationProvider() {
-            super(PID);
+            super(PID2);
         }
 
         @Override
