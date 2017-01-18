@@ -18,27 +18,27 @@ A millimeterwave application based on onos
     mvn clean install 
     onos-app localhost reinstall! target/millimeterwave_app-1.0-SNAPSHOT.oar
  
-#Usage 
-##This application can acquire the mininet's topology from different subsystems via northbound APIs, such as HostService, LinkService and DeviceService.  
-###Show all components by default
+# Usage 
+## This application can acquire the mininet's topology from different subsystems via northbound APIs, such as HostService, LinkService and DeviceService.  
+### Show all components by default
     onos>showcomponets  
-###Show only devices
+### Show only devices
     onos>showcomponets -d  
-###Show only links
+### Show only links
     onos>showcomponets -l  
-###Show only hosts
+### Show only hosts
     onos>showcomponets -h  
     
-##This application can also add addtional annotations on devices, links and ports by commands.
+## This application can also add addtional annotations on devices, links and ports by commands.
 
 
-###Add additional annotations on devices
+### Add additional annotations on devices
     onos>annotate-devices <deviceID> <key> <value>  
    
-###Add additional annotations on links
+### Add additional annotations on links
     onos>annotate-links <source-connectPoint> <destination-connectPoint> <key> <value>
     
-###Add additional annotations on ports
+### Add additional annotations on ports
     onos>annotate-ports <deviceID> <Port number> <Port state> <key> <value>
 
 
