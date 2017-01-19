@@ -40,5 +40,26 @@ A millimeterwave application based on onos
     
 ### Add additional annotations on ports
     onos>annotate-ports <deviceID> <Port number> <Port state> <key> <value>
+    
+## Use JSON files to annotate length on link and millimeterwave on port 
+### A JSON example  
+    {
+     "apps" : {
+    "org.onosproject.millimeterwavelink" : {
+      "links" : [{
+        "src":"of:000000000000000e/5",
+        "dst":"of:000000000000000f/3",
+        "length": "100"
+      }]
+    },
+    "org.onosproject.millimeterwaveport" : {
+      "ports" : [{
+        "mmwave":"100",
+        "deviceID": "of:000000000000000a",
+        "portnumber":"1",
+        "isEnabled":"true"
+      }]
+     }
+    }
 
 
