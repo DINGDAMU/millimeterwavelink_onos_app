@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="millimeterwavelink" />
+=======
+>>>>>>> master
         <module name="millimeterwaveLink_app" />
       </profile>
     </annotationProcessing>
