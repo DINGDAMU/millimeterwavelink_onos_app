@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1484771195166
+Bnd-LastModified: 1484844082848
 Build-Jdk: 1.8.0_51
 Built-By: dingdamu
 Bundle-Blueprint: OSGI-INF/blueprint/shell-config.xml
@@ -26,12 +26,13 @@ Import-Package: com.fasterxml.jackson.databind;version="[2.7,3)",com.fas
  1.8,2)",org.onosproject.cli.net;version="[1.8,2)",org.onosproject.core;
  version="[1.8,2)",org.onosproject.event;version="[1.8,2)",org.onosproje
  ct.incubator.net.config.basics;version="[1.8,2)",org.onosproject.net;ve
- rsion="[1.8,2)",org.onosproject.net.config;version="[1.8,2)",org.onospr
- oject.net.config.basics;version="[1.8,2)",org.onosproject.net.device;ve
- rsion="[1.8,2)",org.onosproject.net.driver;version="[1.8,2)",org.onospr
- oject.net.host;version="[1.8,2)",org.onosproject.net.link;version="[1.8
- ,2)",org.onosproject.net.provider;version="[1.8,2)",org.osgi.service.bl
- ueprint;version="[1.0.0,2.0.0)",org.slf4j;version="[1.7,2)"
+ rsion="[1.8,2)",org.onosproject.net.behaviour;version="[1.8,2)",org.ono
+ sproject.net.config;version="[1.8,2)",org.onosproject.net.config.basics
+ ;version="[1.8,2)",org.onosproject.net.device;version="[1.8,2)",org.ono
+ sproject.net.driver;version="[1.8,2)",org.onosproject.net.host;version=
+ "[1.8,2)",org.onosproject.net.link;version="[1.8,2)",org.onosproject.ne
+ t.provider;version="[1.8,2)",org.osgi.service.blueprint;version="[1.0.0
+ ,2.0.0)",org.slf4j;version="[1.7,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/org.onosproject.millimeterwave_app.MMwaveLin
  kProvider.xml
