@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b24351e-c191-4470-a773-d3d64a23a2b7" name="Default" comment="">
 <<<<<<< HEAD
-<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand$AnnotationProvider.class" afterPath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand$AnnotationProvider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.class" afterPath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/oar/m2/org/onosproject/millimeterwave/onos-millimeterwave-apps/1.0.0-SNAPSHOT/onos-millimeterwave-apps-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/oar/m2/org/onosproject/millimeterwave/onos-millimeterwave-apps/1.0.0-SNAPSHOT/onos-millimeterwave-apps-1.0.0-SNAPSHOT.jar" />
@@ -11,27 +10,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/onos-millimeterwave-apps-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/target/onos-millimeterwave-apps-1.0.0-SNAPSHOT.oar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand$AnnotationProvider.class" afterPath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand$AnnotationProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.class" afterPath="$PROJECT_DIR$/target/classes/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/oar/m2/org/onosproject/millimeterwave/onos-millimeterwave-apps/1.0.0-SNAPSHOT/onos-millimeterwave-apps-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/oar/m2/org/onosproject/millimeterwave/onos-millimeterwave-apps/1.0.0-SNAPSHOT/onos-millimeterwave-apps-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/onos-millimeterwave-apps-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/onos-millimeterwave-apps-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/onos-millimeterwave-apps-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/target/onos-millimeterwave-apps-1.0.0-SNAPSHOT.oar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.java" afterPath="$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.onosproject.millimeterwave_app.MMwaveLinkProviderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.onosproject.millimeterwave_app.MMwaveLinkProviderTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/org.onosproject.millimeterwave_app.MMwaveLinkProviderTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/org.onosproject.millimeterwave_app.MMwaveLinkProviderTest.txt" />
-<<<<<<< HEAD
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> master
-=======
->>>>>>> mmwavelink
 >>>>>>> master
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +46,6 @@
         </entry>
       </file>
 <<<<<<< HEAD
-<<<<<<< HEAD
       <file leaf-file-name="cfg.json" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/cfg.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,11 +56,6 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-=======
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
->>>>>>> master
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -93,17 +71,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-<<<<<<< HEAD
->>>>>>> master
-=======
-=======
-      <file leaf-file-name="cfg.json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/cfg.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding />
->>>>>>> mmwavelink
 >>>>>>> master
             </state>
           </provider>
@@ -113,20 +80,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-<<<<<<< HEAD
             <state relative-caret-position="424">
               <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
 =======
             <state relative-caret-position="812">
               <caret line="72" column="56" lean-forward="false" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
->>>>>>> master
-=======
-            <state relative-caret-position="812">
-              <caret line="72" column="56" lean-forward="false" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
-=======
-            <state relative-caret-position="424">
-              <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
->>>>>>> mmwavelink
 >>>>>>> master
               <folding>
                 <element signature="e#4330#4331#0" expanded="true" />
@@ -150,15 +108,6 @@
         </entry>
       </file>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <file leaf-file-name="cfg.json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/cfg.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-=======
->>>>>>> master
       <file leaf-file-name="link.json" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/link.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -171,7 +120,6 @@
       </file>
       <file leaf-file-name="cfg2.json" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/cfg2.json">
-<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="17" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
@@ -181,12 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
->>>>>>> master
-=======
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
->>>>>>> mmwavelink
 >>>>>>> master
               <folding />
             </state>
@@ -278,14 +220,8 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       <pane id="PackagesPane" />
->>>>>>> master
-=======
-      <pane id="PackagesPane" />
-=======
->>>>>>> mmwavelink
 >>>>>>> master
       <pane id="ProjectPane">
         <subPane>
@@ -339,19 +275,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-<<<<<<< HEAD
 =======
->>>>>>> master
-=======
->>>>>>> mmwavelink
 >>>>>>> master
           </PATH>
           <PATH>
@@ -403,14 +331,8 @@
       <pane id="Scratches" />
       <pane id="Scope" />
 <<<<<<< HEAD
-<<<<<<< HEAD
       <pane id="PackagesPane" />
 =======
->>>>>>> master
-=======
-=======
-      <pane id="PackagesPane" />
->>>>>>> mmwavelink
 >>>>>>> master
     </panes>
   </component>
@@ -696,16 +618,9 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
-<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23032904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> master
-=======
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23032904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> mmwavelink
 >>>>>>> master
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -778,31 +693,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-<<<<<<< HEAD
         <state relative-caret-position="1120">
           <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
 =======
-=======
->>>>>>> master
         <state relative-caret-position="840">
           <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-<<<<<<< HEAD
->>>>>>> master
-=======
-=======
-        <state relative-caret-position="1120">
-          <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
->>>>>>> mmwavelink
 >>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotateDeviceCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="672">
           <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="22" />
@@ -821,16 +725,6 @@
         </state>
       </provider>
     </entry>
-=======
-        <state relative-caret-position="812">
-          <caret line="72" column="56" lean-forward="false" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> master
     <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotateLinkCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -842,7 +736,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
-<<<<<<< HEAD
 >>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -864,25 +757,6 @@
           <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding />
 =======
-=======
-=======
-        <state relative-caret-position="672">
-          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/MMwaveLinkProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/MMwaveLinkProviderConfig.java" />
-    <entry file="file://$USER_HOME$/MillimeterwavePort_app/src/main/java/org/onosproject/MillimeterwavePort_app/MMwavePortProviderConfig.java">
->>>>>>> mmwavelink
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
->>>>>>> master
     <entry file="file://$USER_HOME$/cfg.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -919,23 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="34" column="68" lean-forward="false" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-<<<<<<< HEAD
->>>>>>> master
-=======
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotateLinkCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="56" lean-forward="false" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding />
->>>>>>> mmwavelink
 >>>>>>> master
         </state>
       </provider>
@@ -943,22 +800,12 @@
     <entry file="file://$USER_HOME$/cfg.json">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-<<<<<<< HEAD
         <state relative-caret-position="392">
           <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding />
 =======
         <state relative-caret-position="84">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
->>>>>>> master
-=======
-        <state relative-caret-position="84">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-=======
-        <state relative-caret-position="392">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
->>>>>>> mmwavelink
 >>>>>>> master
         </state>
       </provider>
@@ -975,22 +822,12 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0-tests.jar!/org/onosproject/net/link/DefaultLinkDescriptionTest.class">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-<<<<<<< HEAD
         <state relative-caret-position="280">
           <caret line="34" column="68" lean-forward="false" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
 =======
         <state relative-caret-position="168">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
->>>>>>> master
-=======
-        <state relative-caret-position="168">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-=======
-        <state relative-caret-position="280">
-          <caret line="34" column="68" lean-forward="false" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
->>>>>>> mmwavelink
 >>>>>>> master
         </state>
       </provider>
@@ -1028,10 +865,6 @@
         <state relative-caret-position="196">
           <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1141,11 +974,7 @@
         <state relative-caret-position="882">
           <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding />
-<<<<<<< HEAD
 =======
->>>>>>> master
-=======
->>>>>>> mmwavelink
 >>>>>>> master
         </state>
       </provider>
@@ -1153,26 +982,15 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-<<<<<<< HEAD
         <state relative-caret-position="350">
           <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
 =======
-=======
->>>>>>> master
         <state relative-caret-position="812">
           <caret line="72" column="56" lean-forward="false" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-<<<<<<< HEAD
->>>>>>> master
-=======
-=======
-        <state relative-caret-position="350">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
->>>>>>> mmwavelink
 >>>>>>> master
         </state>
       </provider>
@@ -1180,20 +998,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/MMwaveLinkProvider.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-<<<<<<< HEAD
         <state relative-caret-position="252">
           <caret line="68" column="80" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="80" />
 =======
         <state relative-caret-position="840">
           <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
->>>>>>> master
-=======
-        <state relative-caret-position="840">
-          <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
-=======
-        <state relative-caret-position="252">
-          <caret line="68" column="80" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="80" />
->>>>>>> mmwavelink
 >>>>>>> master
           <folding>
             <element signature="e#0#8203#0" expanded="false" />
@@ -1203,40 +1012,21 @@
       </provider>
     </entry>
 <<<<<<< HEAD
-<<<<<<< HEAD
     <entry file="file://$USER_HOME$/link.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
 =======
-=======
->>>>>>> master
     <entry file="file://$PROJECT_DIR$/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-<<<<<<< HEAD
->>>>>>> master
-=======
-=======
-    <entry file="file://$USER_HOME$/link.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
->>>>>>> mmwavelink
 >>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/architecture overview.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-=======
->>>>>>> master
     <entry file="file://$USER_HOME$/cfg2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1283,14 +1073,10 @@
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
-<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/architecture overview.png">
       <provider selected="true" editor-type-id="images">
         <state />
->>>>>>> master
-=======
->>>>>>> mmwavelink
 >>>>>>> master
       </provider>
     </entry>
@@ -1314,7 +1100,6 @@
       </provider>
     </entry>
 <<<<<<< HEAD
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -1329,23 +1114,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
->>>>>>> master
-=======
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/onosproject/millimeterwave_app/cli/AnnotatePortCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-          <folding>
-            <element signature="e#4330#4331#0" expanded="true" />
-            <element signature="e#4365#4366#0" expanded="true" />
-          </folding>
->>>>>>> mmwavelink
 >>>>>>> master
         </state>
       </provider>
