@@ -99,21 +99,7 @@ public class AnnotatePortCommand extends AbstractShellCommand {
 
     }
 
-    private DeviceDescription deviceDescription(Device device, String key, String value) {
-        DefaultAnnotations.Builder builder = DefaultAnnotations.builder();
-        if (value != null) {
-            builder.set(key, value);
-        } else {
-            builder.remove(key);
-        }
 
-        // don' forget new method!
-        return new DefaultDeviceDescription(device.id().uri(), device.type(),
-                                            device.manufacturer(), device.hwVersion(),
-                                            device.swVersion(), device.serialNumber(),
-                                            device.chassisId(), false, builder.build());
-
-    }
 
 
 
