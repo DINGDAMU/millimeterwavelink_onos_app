@@ -1,7 +1,8 @@
 # Millimeterwave_onos_app
 A millimeterwave application based on onos
 
-<img src="https://github.com/DINGDAMU/Millimeterwave_onos_app/blob/master/architecture%20overview.png" width="50%" height="50%" />
+<img src="https://github.com/DINGDAMU/Millimeterwave_onos_app/blob/master/architecture%20overview.png" width="50%" height="50%" />  
+
 # Prerequisites
 - Java 8 JDK (Oracle Java recommended; OpenJDK is not as thoroughly tested)
 - Apache Maven 3.3.9
